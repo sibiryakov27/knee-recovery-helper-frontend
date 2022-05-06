@@ -26,9 +26,6 @@
                         <a href="test-eq-5d-3l.html">Анкета EQ-5D-3L</a>
                     </li>
                     <li class="site-navigation-item">
-                        <a href="#">Обратная связь</a>
-                    </li>
-                    <li class="site-navigation-item">
                         <a href="about-system.html">О системе</a>
                     </li>
                 </ul>
@@ -56,8 +53,27 @@
                     </tr>
                 </table>
             </section>
+            <section class="feedback">
+                <h2>Есть вопросы?</h2>
+                <p>Свяжитесь с вашим лечащим врачом</p>
+                <form class="feedback-form">
+                    <div class="feedback-form-group">
+                        <label for="topic">Тема обращения:</label>
+                        <select name="topic" id="topic">
+                            <option value="1">Вопрос по курсу реабилитации</option>
+                            <option value="2">Жалоба на здоровье</option>
+                            <option value="3">Другое</option>
+                        </select>
+                    </div>
+                    <div class="feedback-form-group">
+                        <label for="message">Текст обращения:</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+                    <input class="btn" type="submit" value="Отправить">
+                </form>
+            </section>
             <section class="reports">
-                <h2>Отчёты</h2>
+                <h2>Ваши отчёты</h2>
                 <ul class="reports-list">
                     <li>У вас пока не было сгенерировано отчётов</li>
                 </ul>
@@ -77,9 +93,6 @@
                 </li>
                 <li class="footer-navigation-item">
                     <a href="test-eq-5d-3l.html">Анкета EQ-5D-3L</a>
-                </li>
-                <li class="footer-navigation-item">
-                    <a href="#">Обратная связь</a>
                 </li>
                 <li class="footer-navigation-item">
                     <a href="about-system.html">О системе</a>
