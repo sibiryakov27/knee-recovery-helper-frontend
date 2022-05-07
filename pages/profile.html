@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf=8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Knee recovery helper</title>
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="main-header-nav">
+                <a>
+                    <img src="../img/logo.png" width="154" height="84" alt="Knee recovery helper">
+                </a>
+                <ul class="site-navigation">
+                    <li class="site-navigation-item">
+                        <a href="index.html">Главная</a>
+                    </li>
+                    <li class="site-navigation-item">
+                        <a href="exercises.html">Тренировки</a>
+                    </li>
+                    <li class="site-navigation-item">
+                        <a href="test-oks.html">Анкета OKS</a>
+                    </li>
+                    <li class="site-navigation-item">
+                        <a href="test-eq-5d-3l.html">Анкета EQ-5D-3L</a>
+                    </li>
+                    <li class="site-navigation-item">
+                        <a href="about-system.html">О системе</a>
+                    </li>
+                </ul>
+                <a class="profile" href="profile.html">
+                    <img src="../img/avatar.svg" width="40" height="40" alt="Аватар">
+                    <p>Мой профиль</p>
+                </a>
+            </nav>
+        </header>
+
+        <main>
+            <h1 class="hidden">Мой профиль</h1>
+            <section class="personal-data">
+                <h2>Мои данные</h2>
+                <form class="personal-data-form">
+                    <div class="personal-data-form-group">
+                        <label for="first-name">Имя</label>
+                        <input type="text" name="first-name" id="first-name">
+                    </div>
+                    <div class="personal-data-form-group">
+                        <label for="second-name">Фамилия</label>
+                        <input type="text" name="second-name" id="second-name">
+                    </div>
+                    <div class="personal-data-form-group">
+                        <label for="patronymic">Отчество</label>
+                        <input type="text" name="patronymic" id="patronymic">
+                    </div>
+                    <div class="personal-data-form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="personal-data-form-group">
+                        <label for="tel">Телефон</label>
+                        <input type="tel" name="tel" id="tel">
+                    </div>
+                    <div class="personal-data-form-group">
+                        <label for="med-number">Номер медицинской карты</label>
+                        <input type="number" name="med-number" id="med-number">
+                    </div>
+                    <input type="submit" value="Сохранить">
+                </form>
+            </section>
+            <section class="change-password">
+                <h2>Изменить пароль</h2>
+                <div class="change-password-form-group">
+                    <label for="current-password">Текущий пароль</label>
+                    <input type="password" name="current-password" id="current-password">
+                </div>
+                <div class="change-password-form-group">
+                    <input type="password" name="new-password" id="new-password" placeholder="Новый пароль">
+                    <input type="password" name="new-password" id="new-password" placeholder="Повторите пароль">
+                </div>
+                <p>Не менее 8 символов, используйте цифры и буквы латинского алфавита</p>
+                <input type="submit" value="Изменить пароль">
+            </section>
+            <section class="doctor-info">
+                <h2>Данные лечащего врача</h2>
+                <p>ФИО:</p>
+                <p>Email:</p>
+                <p>Телефон:</p>
+            </section>
+        </main>
+
+        <footer class="main-footer">
+            <ul class="footer-navigation">
+                <li class="footer-navigation-item">
+                    <a href="index.html">Главная</a>
+                </li>
+                <li class="footer-navigation-item">
+                    <a href="exercises.html">Тренировки</a>
+                </li>
+                <li class="footer-navigation-item">
+                    <a href="test-oks.html">Анкета OKS</a>
+                </li>
+                <li class="footer-navigation-item">
+                    <a href="test-eq-5d-3l.html">Анкета EQ-5D-3L</a>
+                </li>
+                <li class="footer-navigation-item">
+                    <a href="about-system.html">О системе</a>
+                </li>
+            </ul>
+            <span class="copyright">© 2022 Knee recovery helper</span>
+        </footer>
+    </body>
+</html>
