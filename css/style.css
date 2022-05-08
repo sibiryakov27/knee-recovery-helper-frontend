@@ -1,0 +1,136 @@
+body {
+    min-width: 1220px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Arial", sans-serif;
+    color: #404040;
+    background-color: white;
+}
+
+.container {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.main-header,
+.main-footer {
+    min-height: 120px;
+    padding-top: 30px;
+    height: auto;
+    background-color: #2C3157;
+}
+
+.main-header-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    display: inline-block;
+    width: 154px;
+    height: 84px;
+}
+
+.header.logo img {
+    width: 154px;
+    height: 84px;
+}
+
+.site-navigation {
+    display: inline-block;
+    margin: 0;
+    margin-top: 25px;
+    padding: 0;
+    list-style: none;
+}
+
+.site-navigation-item {
+    display: inline-block;
+    margin-right: 5px;
+    white-space: nowrap;
+}
+
+.site-navigation-item a {
+    display: block;
+    color: white;
+    padding: 8px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.site-navigation-item.current a {
+    background-color: #525570;
+}
+
+.site-navigation-item a:hover {
+    background-color: #525570;
+}
+
+.site-navigation-item a:active {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+a.profile {
+    display: inline-block;
+    margin: 0;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+a.profile:hover {
+    background-color: #525570;
+}
+
+.profile img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-navigation {
+    display: flex;
+    justify-content: center;
+    margin: auto 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-navigation-item {
+    display: inline-block;
+    margin-right: 5px;
+    white-space: nowrap;
+}
+
+.footer-navigation-item a {
+    display: block;
+    color: white;
+    padding: 8px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.footer-navigation-item.current a {
+    background-color: #525570;
+}
+
+.footer-navigation-item a:hover {
+    background-color: #525570;
+}
+
+.main-footer .container {
+    position: relative;
+}
+
+.copyright {
+    position: absolute;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.3);
+}
