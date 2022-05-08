@@ -1,5 +1,5 @@
 body {
-    min-width: 1220px;
+    min-width: 1040px;
     margin: 0;
     padding: 0;
     font-size: 16px;
@@ -12,6 +12,33 @@ body {
 .container {
     width: 1020px;
     margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    display: inline-block;
+    width: 146px;
+    word-wrap: break-word;
+    padding: 10px;
+    vertical-align: top;
+    color: white;
+    font: inherit;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #2C3157;
+    border-radius: 2px;
+}
+  
+.btn:hover {
+    background-color: #525570;
+}
+  
+.btn:active {
+    color: rgba(255, 255, 255, 0.3);
 }
 
 .main-header,
@@ -48,7 +75,7 @@ body {
 
 .site-navigation-item {
     display: inline-block;
-    margin-right: 5px;
+    margin-right: -4px;
     white-space: nowrap;
 }
 
@@ -56,12 +83,9 @@ body {
     display: block;
     color: white;
     padding: 8px 10px;
+    margin: 0;
     text-decoration: none;
-    border-radius: 10px;
-}
-
-.site-navigation-item.current a {
-    background-color: #525570;
+    text-transform: uppercase;
 }
 
 .site-navigation-item a:hover {
@@ -72,24 +96,21 @@ body {
     color: rgba(255, 255, 255, 0.3);
 }
 
-a.profile {
-    display: inline-block;
-    margin: 0;
-    padding: 5px;
-    color: white;
-    text-decoration: none;
-    border: 2px solid white;
-    border-radius: 10px;
+.site-navigation-item.current a {
+    color: rgba(255, 255, 255, 0.3);
+    background: none;
 }
 
-a.profile:hover {
-    background-color: #525570;
-}
-
-.profile img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.section-title {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 30px;
+    margin-right: 180px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    font-family: "Georgia", serif;
+    color: #2C3157;
 }
 
 .footer-navigation {
@@ -102,7 +123,7 @@ a.profile:hover {
 
 .footer-navigation-item {
     display: inline-block;
-    margin-right: 5px;
+    margin-right: -4px;
     white-space: nowrap;
 }
 
@@ -110,16 +131,21 @@ a.profile:hover {
     display: block;
     color: white;
     padding: 8px 10px;
+    margin: 0;
     text-decoration: none;
-    border-radius: 10px;
-}
-
-.footer-navigation-item.current a {
-    background-color: #525570;
 }
 
 .footer-navigation-item a:hover {
     background-color: #525570;
+}
+
+.footer-navigation-item:active {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-navigation-item.current a {
+    background: none;
+    color: rgba(255, 255, 255, 0.3);
 }
 
 .main-footer .container {

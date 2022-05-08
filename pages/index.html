@@ -4,6 +4,7 @@
         <meta charset="utf=8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/index.css">
         <title>Knee recovery helper</title>
     </head>
     <body>
@@ -40,44 +41,50 @@
         <main>
             <h1 class="hidden">Knee recovery helper</h1>
             <section class="progress">
-                <h2>Мой прогресс</h2>
-                <table class="progress-table">
-                    <tr>
-                        <th>Тренировки</th>
-                        <th>Анкета OKS</th>
-                        <th>Анкета EQ-5D-3L</th>
-                    </tr>
-                    <tr>
-                        <td>Выполнено 0 из 7</td>
-                        <td>Не заполнена</td>
-                        <td>Не заполнена</td>
-                    </tr>
-                </table>
-            </section>
-            <section class="feedback">
-                <h2>Есть вопросы?</h2>
-                <p>Свяжитесь с вашим лечащим врачом</p>
-                <form class="feedback-form">
-                    <div class="feedback-form-group">
-                        <label for="topic">Тема обращения:</label>
-                        <select name="topic" id="topic">
-                            <option value="1">Вопрос по курсу реабилитации</option>
-                            <option value="2">Жалоба на здоровье</option>
-                            <option value="3">Другое</option>
-                        </select>
-                    </div>
-                    <div class="feedback-form-group">
-                        <label for="message">Текст обращения:</label>
-                        <textarea name="message" id="message"></textarea>
-                    </div>
-                    <input class="btn" type="submit" value="Отправить">
-                </form>
+                <div class="container">
+                    <h2 class="section-title">Мой прогресс</h2>
+                    <table class="progress-table">
+                        <tr>
+                            <th>Тренировки</th>
+                            <th>Анкета OKS</th>
+                            <th>Анкета EQ-5D-3L</th>
+                        </tr>
+                        <tr>
+                            <td>Выполнено 0 из 7</td>
+                            <td>Не заполнена</td>
+                            <td>Не заполнена</td>
+                        </tr>
+                    </table>
+                </div>
             </section>
             <section class="reports">
-                <h2>Ваши отчёты</h2>
-                <ul class="reports-list">
-                    <li>У вас пока не было сгенерировано отчётов</li>
-                </ul>
+                <div class="container">
+                    <h2 class="section-title">Ваши отчёты</h2>
+                    <ul class="reports-list">
+                        <li>У вас пока не было сгенерировано отчётов</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="feedback">
+                <div class="container">
+                    <h2 class="section-title">Есть вопросы?</h2>
+                    <p class="feedback-tip">Свяжитесь с вашим лечащим врачом</p>
+                    <form class="feedback-form">
+                        <div class="feedback-form-group">
+                            <label for="topic">Тема обращения:</label>
+                            <select name="topic" id="topic">
+                                <option value="1">Вопрос по курсу реабилитации</option>
+                                <option value="2">Жалоба на здоровье</option>
+                                <option value="3">Другое</option>
+                            </select>
+                        </div>
+                        <div class="feedback-form-group">
+                            <label for="message">Текст обращения:</label>
+                            <textarea name="message" id="message"></textarea>
+                        </div>
+                        <input class="btn" type="submit" value="Отправить">
+                    </form>
+                </div>
             </section>
         </main>
 
