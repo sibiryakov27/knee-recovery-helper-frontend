@@ -9,6 +9,11 @@ body {
     background-color: white;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     width: 1020px;
     margin: 0 auto;
@@ -41,6 +46,30 @@ body {
     color: rgba(255, 255, 255, 0.3);
 }
 
+.page-title {
+    margin-top: 56px;
+    margin-left: 0;
+    margin-bottom: 26px;
+    margin-left: 0;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    font-family: "Georgia", serif;
+    color: #2C3157;
+}
+
+.section-title {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 24px;
+    margin-right: 180px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "Georgia", serif;
+    color: #2C3157;
+}
+
 .main-header,
 .main-footer {
     min-height: 120px;
@@ -48,6 +77,8 @@ body {
     height: auto;
     background-color: #2C3157;
 }
+
+/* Шапка */
 
 .main-header-nav {
     display: flex;
@@ -101,17 +132,7 @@ body {
     background: none;
 }
 
-.section-title {
-    margin-top: 0;
-    margin-left: 0;
-    margin-bottom: 30px;
-    margin-right: 180px;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 40px;
-    font-family: "Georgia", serif;
-    color: #2C3157;
-}
+/* Подвал */
 
 .footer-navigation {
     display: flex;
